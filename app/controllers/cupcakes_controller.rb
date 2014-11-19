@@ -3,6 +3,7 @@ class CupcakesController < ApplicationController
     @toppings = ['sprinkles', 'frosting', 'gummy worms']
   end
 
+
   def chocolate
     @frostings = {
       vanilla: '2 dollops',
